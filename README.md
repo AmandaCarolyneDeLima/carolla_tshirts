@@ -4,6 +4,12 @@ Project developed throughout the semester in the course of Web Development 4
 
 ## Carolla T-shirts: Cadastro e listagem de camisetas
 
+# Wireframes
+
+Anexo pasta na raiz do projeto também!
+
+https://www.figma.com/file/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=4%3A15
+
 # Checkist
 
 - [] Encaminhamento e redirecionamento
