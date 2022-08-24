@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="carolla_tshirts:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>carolla_tshirts</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="carolla_tshirts-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="carolla_tshirts:war exploded" />
+    </root>
+  </artifact>
+</component>
