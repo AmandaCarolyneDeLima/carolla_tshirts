@@ -2,12 +2,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Carolla T-shirts</title>
+    <!-- Boostrap Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS Styles -->
+    <!--<link rel="stylesheet" href="<?= URL_CSS . 'principal.css'?>">-->
 </head>
 <body>
-<h1><%= "Carolla T-shirts!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-pink px-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">Carolla T-shirt</a>
+            <li class="nav-item"> <a class="nav-link" href="cadastro">Cadastro de T-shirt</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="listagem">Listagem de T-shirt</a> </li>
+        </div>
+    </nav>
+</header>
+<img src="wireframes/logo.jpg" alt="Logo">
+<!----------------------------------------------------------------------------------------------------------------->
+<!-- Boostrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!----------------------------------------------------------------------------------------------------------------->
 </body>
 </html>
