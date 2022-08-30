@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ed965fc-1093-4b27-b598-a4aa177410b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,13 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -38,29 +33,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Dovb54puhajdgDq9IEfiM66ebR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2E4kYq7asUuolyMjpWrNHyMfsE7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/amanda/Área de Trabalho/html/apache-tomcat-9.0.65&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/amanda/Área de Trabalho/projects/web4/carolla_tshirts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.65">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="carolla_tshirts:war exploded">
@@ -70,7 +61,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="6649829e-0249-4be4-8896-a2695ddedcb9" />
+        <option name="BASE_DIRECTORY_NAME" value="4821b792-0cd0-49f2-8b77-ad48764c635c" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -78,7 +69,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="35033" />
+        <option name="DEBUG_PORT" value="40783" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -147,31 +138,6 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat Smart 9" type="com.poratu.idea.plugins.tomcat">
-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
-      <predefined_log_file id="Tomcat Catalina Log" />
-      <predefined_log_file id="Tomcat Manager Log" />
-      <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="adminPort" value="8005" />
-      <option name="contextPath" value="/carolla_tshirts" />
-      <option name="docBase" value="$USER_HOME$/projects/web4/carolla_tshirts/src/main/webapp" />
-      <option name="envOptions" />
-      <option name="passParentEnvironmentVariables" value="true" />
-      <option name="port" value="8080" />
-      <option name="tomcatInfo">
-        <TomcatInfo>
-          <option name="name" value="Apache Tomcat/9.0.65" />
-          <option name="number" value="1" />
-          <option name="path" value="$PROJECT_DIR$/../../../html/apache-tomcat-9.0.65" />
-          <option name="version" value="9.0.65.0" />
-        </TomcatInfo>
-      </option>
-      <option name="vmOptions" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -181,13 +147,15 @@
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/carolla_tshirts" />
       <option name="docBase" value="$USER_HOME$/projects/web4/carolla_tshirts/src/main/webapp" />
-      <option name="envOptions" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8080" />
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.65" />
-          <option name="number" value="1" />
+          <option name="number" value="0" />
           <option name="path" value="$PROJECT_DIR$/../../../html/apache-tomcat-9.0.65" />
           <option name="version" value="9.0.65.0" />
         </TomcatInfo>
@@ -197,29 +165,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Smart Tomcat.Tomcat Smart 9" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.65" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ed965fc-1093-4b27-b598-a4aa177410b3" name="Changes" comment="" />
-      <created>1661378342474</created>
+      <changelist id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="" />
+      <created>1661862306392</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661378342474</updated>
-      <workItem from="1661378345047" duration="1299000" />
-      <workItem from="1661379884630" duration="380000" />
-      <workItem from="1661380336243" duration="63000" />
-      <workItem from="1661382097332" duration="1083000" />
-      <workItem from="1661384032751" duration="470000" />
-      <workItem from="1661462595023" duration="1391000" />
-      <workItem from="1661464345819" duration="4870000" />
-      <workItem from="1661549754659" duration="341000" />
-      <workItem from="1661788816363" duration="768000" />
-      <workItem from="1661790997886" duration="302000" />
+      <updated>1661862306392</updated>
+      <workItem from="1661862307977" duration="342000" />
+      <workItem from="1661862734012" duration="9884000" />
     </task>
     <servers />
   </component>
