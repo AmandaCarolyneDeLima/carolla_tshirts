@@ -1,4 +1,4 @@
-package br.edu.utfpr.carolla_tshirts;
+package br.edu.utfpr.carolla_tshirts.controller;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

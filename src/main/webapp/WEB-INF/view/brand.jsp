@@ -15,18 +15,17 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-pink px-4">
         <div class="container-fluid">
-            <b><a class="navbar-brand" href="index.jsp">Carolla T-shirt - Listagem</a></b>
+            <b><a class="navbar-brand" href="index.jsp">Carolla T-shirt - Cadastro de Marcas</a></b>
             <a class="nav-link" href="cadastro">Cadastro de T-shirt</a>
+            <a class="nav-link" href="marcas">Cadastro de Marcas</a>
             <a class="nav-link" href="listagem">Listagem de T-shirt</a>
         </div>
     </nav>
 </header>
-A camiseta com <b>Descrição:</b> ${descricaoT} <b>Cor:</b> ${corT} e <b>Tamanho:</b> ${tamanhoT} foi salva com sucesso!!
-<%--    Descrição: Cor: Tamanho:--%>
-<%--    Descrição: Cor: Tamanho:--%>
-<%--    Descrição: Cor: Tamanho:--%>
-<%--    Descrição: Cor: Tamanho:--%>
-<%--    Descrição: Cor: Tamanho:--%>
+<form action="marcas" method="post">
+    Nome da marca: <input type="text" name="nome">
+    <button>Salvar</button>
+</form>
 <!----------------------------------------------------------------------------------------------------------------->
 <!-- Boostrap script -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
