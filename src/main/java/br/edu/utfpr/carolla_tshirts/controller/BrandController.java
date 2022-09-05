@@ -13,7 +13,7 @@ public class BrandController extends HttpServlet {
         if (param == null){
             request.getRequestDispatcher("/WEB-INF/view/brand.jsp").forward(request, response);
         }else {
-            request.getRequestDispatcher("/WEB-INF/view/brandSucess.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/view/brand-success.jsp").forward(request, response);
         }
     }
 

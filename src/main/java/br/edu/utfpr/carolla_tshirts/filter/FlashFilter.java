@@ -1,4 +1,5 @@
-package br.edu.utfpr.carolla_tshirts;
+package br.edu.utfpr.carolla_tshirts.filter;
+
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.HashMap;

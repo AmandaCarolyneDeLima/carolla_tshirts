@@ -9,11 +9,12 @@ import java.io.IOException;
 public class ListingController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        process(request, response);
         request.getRequestDispatcher("/WEB-INF/view/listing.jsp").forward(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
+
 }

@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <t:template title="Carolla T-shirts">
-    <jsp:body>
-        <center><img src="assets/resources/images/logo.jpeg" alt="logo" height="450" width="650"></center>
-    </jsp:body>
+  <jsp:body>
+A marca <b>${nomeM}</b> foi salva com sucesso!!
+</jsp:body>
 </t:template>

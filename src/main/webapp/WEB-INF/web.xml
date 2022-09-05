@@ -5,10 +5,6 @@
          version="4.0">
 
     <error-page>
-        <location>/WEB-INF/view/error/server-error.jsp</location>
-    </error-page>
-
-    <error-page>
         <error-code>404</error-code>
         <location>/WEB-INF/view/error/404.jsp</location>
     </error-page>
@@ -16,5 +12,9 @@
     <error-page>
         <exception-type>java.lang.NumberFormatException</exception-type>
         <location>/WEB-INF/view/error/400.jsp</location>
+    </error-page>
+
+    <error-page>
+        <location>/WEB-INF/view/error/server-error.jsp</location>
     </error-page>
 </web-app>
