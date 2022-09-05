@@ -2,7 +2,7 @@
 
 Projeto desenvolvido ao longo do semestre na disciplina de Desenvolvimento Web 4
 
-## Link esterno para o figma
+## Link externo para o figma
 
 https://www.figma.com/file/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=24%3A2
 
