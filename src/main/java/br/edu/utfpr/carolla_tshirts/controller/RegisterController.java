@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-import br.edu.utfpr.carolla_tshirts.util.Constants;
+import br.edu.utfpr.carolla_tshirts.model.domain.Tshirt;
 
 
 @WebServlet(name = "RegisterServlet", value = "/cadastro")
@@ -15,11 +15,13 @@ public class RegisterController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String param = request.getParameter("estado");
+
         if (param == null){
             request.getRequestDispatcher("/WEB-INF/view/register.jsp").forward(request, response);
         }else {
             request.getRequestDispatcher("/WEB-INF/view/listing.jsp").forward(request, response);
         }
+
     }
 
     @Override
@@ -37,8 +39,10 @@ public class RegisterController extends HttpServlet {
 
         process(request, response);
 
-
+//        Tshirt tshirt = new Tshirt(descricaoT, corT, tamanhoT);
+//        request.setAttribute("flash.tshirt", tshirt);
         response.sendRedirect("cadastro?estado=sucesso");
+
 
     }
 
@@ -80,5 +84,6 @@ public class RegisterController extends HttpServlet {
             cookies.setMaxAge(-1);// fecha navegador, ele apaga
 
         response.addCookie(cookie);
+
     }
 }

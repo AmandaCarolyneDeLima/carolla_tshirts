@@ -11,19 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carolla_tshirts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/carolla_tshirts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/filter/FlashFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/filter/FlashFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brandSucess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand-success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +34,29 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/BrandController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/filter/FlashFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dao/AbstractDAO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dao/BrandDAO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dao/TshirtDAO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Brand.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Tshirt.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dto/BrandDTO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dto/TshirtDTO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/mapper/BrandMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/mapper/TshirtMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/AbstractService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/BrandService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/JPAUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/assets/resources/styles/bootstrap/bootstrap.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/assets/resources/styles/bootstrap/geral.css" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -207,6 +224,9 @@
       <workItem from="1662385445992" duration="2869000" />
       <workItem from="1662392295331" duration="176000" />
       <workItem from="1662392889024" duration="8675000" />
+      <workItem from="1662421599544" duration="2702000" />
+      <workItem from="1662465873246" duration="45000" />
+      <workItem from="1662467873201" duration="8134000" />
     </task>
     <servers />
   </component>

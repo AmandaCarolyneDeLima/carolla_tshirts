@@ -6,7 +6,7 @@
 <t:template title="Carolla T-shirts">
     <jsp:body>
 <form action="marcas" method="post">
-    Nome da marca: <input type="text" name="nome">
+    Nome da marca: <input type="text" name="name">
     <button>Salvar</button>
 </form>
     </jsp:body>
