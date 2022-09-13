@@ -11,13 +11,19 @@
   <component name="ChangeListManager">
     <list default="true" id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carolla_tshirts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/carolla_tshirts.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/403.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/403.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/amanda/Área de Trabalho/projects/web4/carolla_tshirts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/amanda/Área de Trabalho/projects/web4/carolla_tshirts/src/main/webapp/WEB-INF/view&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +99,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -226,7 +237,10 @@
       <workItem from="1662392889024" duration="8675000" />
       <workItem from="1662421599544" duration="2702000" />
       <workItem from="1662465873246" duration="45000" />
-      <workItem from="1662467873201" duration="8134000" />
+      <workItem from="1662467873201" duration="11486000" />
+      <workItem from="1662640741135" duration="2093000" />
+      <workItem from="1663072849942" duration="8149000" />
+      <workItem from="1663107285165" duration="2682000" />
     </task>
     <servers />
   </component>

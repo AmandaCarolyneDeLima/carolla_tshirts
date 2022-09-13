@@ -1,11 +1,16 @@
 package br.edu.utfpr.carolla_tshirts.controller;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import br.edu.utfpr.carolla_tshirts.util.Constants;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import br.edu.utfpr.carolla_tshirts.model.domain.Tshirt;
 
@@ -14,12 +19,26 @@ import br.edu.utfpr.carolla_tshirts.model.domain.Tshirt;
 public class RegisterController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        List<String> tamanhos = new ArrayList<>();
+        tamanhos.add("P");
+        tamanhos.add("M");
+        tamanhos.add("G");
+        tamanhos.add("GG");
+
+        String json = new Gson().toJson(tamanhos);
+        json = new String(json.getBytes(), "UTF-8");
+
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write(json);
+
+
         String param = request.getParameter("estado");
 
         if (param == null){
             request.getRequestDispatcher("/WEB-INF/view/register.jsp").forward(request, response);
         }else {
-            request.getRequestDispatcher("/WEB-INF/view/listing.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/view/register-success.jsp").forward(request, response);
         }
 
     }
@@ -36,6 +55,12 @@ public class RegisterController extends HttpServlet {
         request.setAttribute("flash.corT", corT);
         String tamanhoT = descricao(tamanho);
         request.setAttribute("flash.tamanhoT", tamanhoT);
+
+        //instanciar uma classe tshirt
+        //instanciar o register service
+        //pedir para o service salvar o obj tshirt e colocar try no service
+        //fazer retornar v ou f
+        //fazer o redirect para a page sucesso
 
         process(request, response);
 

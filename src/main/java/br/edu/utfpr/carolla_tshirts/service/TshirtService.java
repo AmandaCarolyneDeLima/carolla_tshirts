@@ -11,9 +11,9 @@ public class TshirtService extends AbstractService<Long, Tshirt>{
         dao = new TshirtDAO();
     }
 
-    public List<Tshirt> listByProperty(String propertyName, String propertyValue) {
+    public List<Tshirt> findAll() {
         List<Tshirt> entities = null;
-        entities = dao.listByProperty(propertyName, propertyValue);
+        entities = dao.findAll();
         return entities;
     }
 }
