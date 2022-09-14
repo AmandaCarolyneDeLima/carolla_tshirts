@@ -7,7 +7,6 @@
     <jsp:body>
         Contador Global: ${counterApplication}<br>
         Contador Sessão: ${counterSession}<br>
-        A camiseta com <b>Descrição:</b> ${descricaoT} <b>Cor:</b> ${corT} e <b>Tamanho:</b> ${tamanhoT} foi salva com sucesso!!
 
         <h2>Listagem de t-shirts inseridas no sistema:</h2>
         <c:if test="${not empty tshirts}">

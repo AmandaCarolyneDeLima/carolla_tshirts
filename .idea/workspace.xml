@@ -10,20 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/carolla_tshirts_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carolla_tshirts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/carolla_tshirts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/ListingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/403.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/403.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register-success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/cadastro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/resources/images/listagem.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +234,9 @@
       <workItem from="1662467873201" duration="11486000" />
       <workItem from="1662640741135" duration="2093000" />
       <workItem from="1663072849942" duration="8149000" />
-      <workItem from="1663107285165" duration="2682000" />
+      <workItem from="1663107285165" duration="3017000" />
+      <workItem from="1663155884704" duration="231000" />
+      <workItem from="1663191501150" duration="1585000" />
     </task>
     <servers />
   </component>
