@@ -8,7 +8,7 @@
         Contador Global: ${counterApplication}<br>
         Contador Sessão: ${counterSession}<br>
 
-        <h2>Listagem de t-shirts inseridas no sistema:</h2>
+        <center><h2>Listagem de t-shirts inseridas no sistema:</h2></center>
         <c:if test="${not empty tshirts}">
             <ul>
                 <c:forEach var="tshirt" items="${tshirts}">

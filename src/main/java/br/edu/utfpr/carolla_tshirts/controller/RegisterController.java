@@ -1,5 +1,6 @@
 package br.edu.utfpr.carolla_tshirts.controller;
 
+import br.edu.utfpr.carolla_tshirts.service.TshirtService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -51,14 +52,18 @@ public class RegisterController extends HttpServlet {
 
         String descricaoT = descricao(descricao);
         request.setAttribute("flash.descricaoT", descricaoT);
-        String corT = descricao(cor);
+        String corT = cor(cor);
         request.setAttribute("flash.corT", corT);
-        String tamanhoT = descricao(tamanho);
+        String tamanhoT = tamanho(tamanho);
         request.setAttribute("flash.tamanhoT", tamanhoT);
 
         //instanciar uma classe tshirt
+        Tshirt tshirt = new Tshirt(descricaoT, corT, tamanhoT);
         //instanciar o register service
+        TshirtService tshirtService = new TshirtService();
         //pedir para o service salvar o obj tshirt e colocar try no service
+        boolean retorno =  tshirtService.save(tshirt);
+        System.out.printf("aaa" + retorno);
         //fazer retornar v ou f
         //fazer o redirect para a page sucesso
 

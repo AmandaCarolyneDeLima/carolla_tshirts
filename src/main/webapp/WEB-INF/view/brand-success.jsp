@@ -5,6 +5,6 @@
 
 <t:template title="Carolla T-shirts">
   <jsp:body>
-A marca <b>${nomeM}</b> foi salva com sucesso!!
+A marca ${nomeM} foi salva com sucesso!!
 </jsp:body>
 </t:template>

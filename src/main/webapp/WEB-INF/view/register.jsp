@@ -45,23 +45,7 @@
 </form>
         </div>
         </div>
-        <script>
-            window.onload =  function (){
-                //plugin https://igorescobar.github.io/jQuery-Mask-Plugin
-                $('#descricao').mask(' ');
-                //ajax get para listar os tamanhos
-                $.get('tamanho', function(data) {
-                    let $select = $('#tamanho');
-                    $.each(data, function(index, item) {
-                        $('<option>').val(index).text(item).appendTo($select);
-                    });
-                });
-                //persiste no localstorage o tamanho selecionado
-                $('#tamanho').change(function (){
-                    localStorage['tamanho'] = $(this).find(':selected').text();
-                });
-            }
-        </script>
+
 
 
 

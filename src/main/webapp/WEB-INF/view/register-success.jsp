@@ -5,7 +5,7 @@
 
 <t:template title="Carolla T-shirts">
     <jsp:body>
-<%--        <h3>${tshirts.descricaoT}</h3>--%>
+<%--        ${tshirt.descricaoT}--%>
 
         A camiseta com <b>Descrição:</b> ${descricaoT} <b>Cor:</b> ${corT} e <b>Tamanho:</b> ${tamanhoT} foi salva com sucesso!!
     </jsp:body>

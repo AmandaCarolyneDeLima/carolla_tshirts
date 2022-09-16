@@ -20,9 +20,9 @@ https://www.figma.com/file/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=24%3A2
     - [x] Tratamento por código de status ou exceção específica
     - [x] Tratamento de erros genérico
 - [ ] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
-- [ ] JSTL e TagLib
-  - [ ] forEach
-  - [ ] if
+- [x] JSTL e TagLib
+  - [x] forEach
+  - [x] if
   - [x] Template com cabeçalho e rodapé
 - [ ] JavaScript
     - [ ] Requisição AJAX
