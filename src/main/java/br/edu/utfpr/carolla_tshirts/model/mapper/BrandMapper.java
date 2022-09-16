@@ -11,12 +11,12 @@ public class BrandMapper {
     }
 
     public static Brand toEntity(BrandDTO dto){
-        Brand entity = new Brand(dto.getName());
+        Brand entity = new Brand(dto.getNome());
         return entity;
     }
 
     public static BrandDTO toDTO(Brand entity){
-        BrandDTO dto = new BrandDTO(entity.getName());
+        BrandDTO dto = new BrandDTO(entity.getNome());
         return dto;
     }
 }

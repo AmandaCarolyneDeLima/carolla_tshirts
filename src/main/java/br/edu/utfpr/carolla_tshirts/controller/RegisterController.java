@@ -67,7 +67,7 @@ public class RegisterController extends HttpServlet {
         //fazer retornar v ou f
         //fazer o redirect para a page sucesso
 
-//        process(request, response);
+        process(request, response);
 
 //        Tshirt tshirt = new Tshirt(descricaoT, corT, tamanhoT);
 //        request.setAttribute("flash.tshirt", tshirt);

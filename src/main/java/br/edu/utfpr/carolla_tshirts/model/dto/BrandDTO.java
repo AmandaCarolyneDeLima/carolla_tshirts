@@ -7,5 +7,5 @@ import lombok.NonNull;
 @Data
 public class BrandDTO {
     @NonNull
-    private String name;
+    private String nome;
 }

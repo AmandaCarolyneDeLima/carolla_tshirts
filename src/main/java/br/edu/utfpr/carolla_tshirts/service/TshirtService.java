@@ -16,14 +16,4 @@ public class TshirtService extends AbstractService<Long, Tshirt>{
         entities = dao.findAll();
         return entities;
     }
-
-    public boolean save(Tshirt tshirt){
-        try{
-            dao.save(tshirt);
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
-    }
 }

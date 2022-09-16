@@ -10,7 +10,7 @@
                 <form action="marcas" method="post">
                     <div class="py-3">
                         <b>Nome da marca:</b> <input type="text" class="form-control"
-                                                     id="name" name="name"><br><br>
+                                                     id="nome" name="nome"><br><br>
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <button class="btn btn-warning px-5" type="submit">Salvar</button>

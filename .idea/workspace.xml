@@ -10,15 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32f2cf1b-5156-4f03-9eb2-b7b1b8895173" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Tshirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/domain/Tshirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dto/BrandDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/dto/BrandDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/model/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/service/TshirtService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand-success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register-success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register-success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/Constants.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/br/edu/utfpr/carolla_tshirts/util/JPAUtil.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/brand.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/assets/resources/styles/bootstrap/bootstrap.css" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/assets/resources/styles/bootstrap/geral.css" root0="SKIP_INSPECTION" />
   </component>
@@ -238,11 +242,35 @@
       <workItem from="1663107285165" duration="3017000" />
       <workItem from="1663155884704" duration="231000" />
       <workItem from="1663191501150" duration="3162000" />
-      <workItem from="1663331248336" duration="4074000" />
+      <workItem from="1663331248336" duration="7600000" />
+      <workItem from="1663363698051" duration="1933000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1663337734704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663337734704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
