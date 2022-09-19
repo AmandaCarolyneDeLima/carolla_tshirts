@@ -69,8 +69,6 @@ public class RegisterController extends HttpServlet {
 
         process(request, response);
 
-//        Tshirt tshirt = new Tshirt(descricaoT, corT, tamanhoT);
-//        request.setAttribute("flash.tshirt", tshirt);
         response.sendRedirect("cadastro?estado=sucesso");
 
 

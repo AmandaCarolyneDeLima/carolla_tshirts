@@ -34,7 +34,7 @@ public class BrandController extends HttpServlet {
         String nomeM = nome(nome);
         request.setAttribute("flash.nomeM", nomeM);
 
-//instanciar uma classe tshirt
+        //instanciar uma classe tshirt
         Brand brand = new Brand(nomeM);
         //instanciar o register service
         BrandService brandService = new BrandService();
@@ -46,8 +46,6 @@ public class BrandController extends HttpServlet {
 
         process(request, response);
 
-//        Tshirt tshirt = new Tshirt(descricaoT, corT, tamanhoT);
-//        request.setAttribute("flash.tshirt", tshirt);
         response.sendRedirect("marcas?estado=sucesso");
     }
 
