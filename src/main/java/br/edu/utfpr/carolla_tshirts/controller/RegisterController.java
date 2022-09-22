@@ -108,10 +108,11 @@ public class RegisterController extends HttpServlet {
         cookie.setMaxAge(60 * 60 * 24);// 1 dia
 
         //temporario
-        Cookie cookies = new Cookie("counter", String.valueOf(counterSession));
+        Cookie cookies = new Cookie("counter1", String.valueOf(counterSession));
             cookies.setMaxAge(-1);// fecha navegador, ele apaga
 
         response.addCookie(cookie);
+        response.addCookie(cookies);
 
     }
 }

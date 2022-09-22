@@ -19,7 +19,7 @@ https://www.figma.com/file/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=24%3A2
 - [x] Controle de erros e exceção via web.xml
     - [x] Tratamento por código de status ou exceção específica
     - [x] Tratamento de erros genérico
-- [ ] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
+- [x] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
 - [x] JSTL e TagLib
   - [x] forEach
   - [x] if
@@ -28,7 +28,7 @@ https://www.figma.com/file/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=24%3A2
     - [ ] Requisição AJAX
     - [ ] Armazenamento no LocalStorage
     - [ ] Uso de plugin JQuery
-- [ ] JPA
-    - [ ] No mínimo 2 entidades.
-    - [ ] Operações de CRUD. 
+- [x] JPA
+    - [x] No mínimo 2 entidades.
+    - [x] Operações de CRUD. 
   
